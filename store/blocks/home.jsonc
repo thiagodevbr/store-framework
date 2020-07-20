@@ -8,6 +8,22 @@
       "slider-layout#home"
     ]
   },
+  "slider-layout#home": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      }
+    }
+  },
   "flex-layout.row": {
     "children": [
       "info-card#rethink",
@@ -67,22 +83,6 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
       "blockClass": "metal"
-    }
-  },
-  "slider-layout#home": {
-    "children": [
-      "image#brand1",
-      "image#brand2",
-      "image#brand3",
-      "image#brand4",
-      "image#brand5",
-      "image#brand6"
-    ],
-    "props": {
-      "autoplay": {
-        "timeout": 7000,
-        "stopOnHover": true
-      }
     }
   }
 }
