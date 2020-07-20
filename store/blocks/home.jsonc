@@ -20,7 +20,7 @@
     "props": {
       "autoplay": {
         "timeout": 5000,
-        "stopOnHover": false
+        "stopOnHover": true
       }
     }
   },
