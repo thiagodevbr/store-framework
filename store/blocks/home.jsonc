@@ -10,16 +10,16 @@
       "responsive-layout.mobile#mobile"
     ]
   },
-  "responsive-layout.desktop#desktop": {
-    "children": [
-      "rich-text#desktop",
-      "image#desktop"
-    ]
-  },
   "responsive-layout.mobile#mobile": {
     "children": [
       "rich-text#mobile",
       "image#mobile"
+    ]
+  },
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "rich-text#desktop",
+      "image#desktop"
     ]
   },
   "rich-text#desktop": {
