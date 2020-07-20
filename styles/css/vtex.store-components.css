@@ -21,7 +21,7 @@
 
 .infoCardContainer {
   max-width: 1260px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -29,15 +29,13 @@
   background-color: #EDCFD1;
 }
 
-.infoCardHeadline--vintage {
+.infoCardHeadline {
   color: black;
   font-weight: bold;
 }
 
 .infoCardCallActionContainer--vintage :global(.vtex-button):hover {
-  color: gray;
   background-color: white;
-  border: transparent;
 }
 
 .infoCardContainer--metal {
